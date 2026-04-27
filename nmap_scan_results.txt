@@ -1,0 +1,25 @@
+==================================================
+SESSION 20: NETWORK ENUMERATION MAP
+Target Subnet: 172.99.0.0/24
+==================================================
+
+HOST 1 (172.99.0.5)
+* Open Ports: [List Ports Here]
+* Service/Version: [List Service Name and Version Here]
+
+HOST 2 (172.99.0.6)
+* Open Ports: [List Ports Here]
+* Service/Version: [List Service Name and Version Here]
+
+HOST 3 (172.99.0.7)
+* Open Ports: [List Ports Here]
+* Service/Version: [List Service Name and Version Here]
+
+QUESTIONS:
+1. What Nmap flag did you use to find the specific software versions running on these ports?
+Answer: A Ping Sweep only checks if a host is online (host discovery). A Port Scan checks which specific ports are open and what services are running on that online host. 
+
+2. Why is it dangerous to run an intense scan (like -A) on a fragile legacy system?
+Answer: By default, Nmap only scans the top 1,000 common ports. Analysts use -p- to scan all 65,535 ports because attackers often hide malicious services on high, non-standard ports to avoid detection
+
+

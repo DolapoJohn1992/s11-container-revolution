@@ -1,0 +1,19 @@
+==================================================
+SESSION 16: READINESS INVENTORY
+==================================================
+Operator: Dolapo Adewale John
+Date: April 20, 2026
+
+Confidence Audit (Yes/No):
+
+Nmap (Network Scanning): [X]
+
+Docker (Containerization): [X]
+
+Linux Hardening (UFW/chmod): [X]
+
+VS Code Remote-SSH: [X]
+
+Identify your weakest area and your plan to review it:
+My weakest area was identifying port conflicts when multiple containers are running. My plan is to practice using sudo ss -tlnp more frequently to visualize which processes are claiming specific ports at Layer 4.Type Answer Here]
+==================================================
